@@ -1,5 +1,8 @@
 # OS-Copilot
 A paper Ai held together by scotch tape
+
+
+
 Functionaility: Opening Apps,Image Generation,Text Generation,Smart at Linux
 
 
