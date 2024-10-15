@@ -11,12 +11,6 @@ import atexit
 # Define a simple memory for user interests
 user_memory = {}
 
-# Common sense knowledge base (example entries)
-common_sense_knowledge = {
-    "water": "Water is essential for life. It is a transparent, tasteless, odorless, and nearly colorless chemical substance.",
-    "fire": "Fire is the result of a chemical reaction called combustion, which occurs when fuel combines with oxygen.",
-}
-
 # Temporary image file path
 temp_image_path = os.path.join(os.getcwd(), 'temp_image.jpg')
 
@@ -174,10 +168,6 @@ def respond_to_query(user_input):
         description = user_input[len("image of "):].strip()
         return search_image(description)
 
-    # Common sense topics
-    for keyword in common_sense_knowledge:
-        if keyword in user_input:
-            return common_sense_knowledge[keyword]
 
     # Open applications
     if "open" in user_input:
