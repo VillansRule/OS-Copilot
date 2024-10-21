@@ -6,7 +6,7 @@ A paper Ai held together by scotch tape
 Functionaility: Opening Apps,Image Generation,Text Generation,Smart at Linux
 
 
-Custom responses can be added by modifying the chatbot to fetch responses from the folder
+Custom responses can be added by modifying the chatbot to fetch responses from the CustomResponses folder
 
 
 how 2 use:
